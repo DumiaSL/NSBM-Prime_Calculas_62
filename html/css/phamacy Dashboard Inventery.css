@@ -1,0 +1,198 @@
+body {
+	font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #28282B;
+}
+
+.navbar li {
+	display: inline;
+  padding-right: 53px;
+  font-size: 22px;
+}
+
+.navbartitle {
+  font-size: 47px;
+  position: absolute;
+  left: 70.1%;
+  top: 23%;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar_logo {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 3%;
+}
+
+.navbar_a:hover {
+  opacity: 0.8;
+}
+
+.topnav-right {
+  position: absolute;
+  top: 35%;
+  right:3%;
+}
+
+#nav a:link {
+  color: white;
+  text-decoration: none;
+}
+
+#nav a:visited {
+  color: white;
+  font-weight: bold;
+}
+
+#nav a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+#nav a:active {
+  color: white;
+  font-weight: bold;
+} 
+
+
+.navbarfixed {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #000000 ;
+  padding: 1px;
+  overflow: hidden;
+  position: -webkit-sticky;
+
+}
+
+.footr {
+  width: 100%;
+  background-color: #001036;
+  padding-top: 5px;
+  margin: 0px;
+}
+
+#footertext li,a{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+#footertext a {
+  font-size: 15px;
+  padding-right: 50px;
+}
+
+iframe {
+  overflow: hidden;
+  border:none;
+  width: 100%;
+  height: 110vh;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright {
+  background-color: #28282B;
+  padding-left: 4%;
+  color: white;
+  padding-top: 0.07%;
+  padding-bottom: 0.07%;
+  font-size: 14px;
+}
+
+.copyright a {
+  color: blue;
+}
+
+.sitemap {
+  position: relative;
+  left: 17%;
+  padding: 6px;
+}
+
+.sitemap a:hover{
+  border-radius: 20px;
+  padding: 3px 12px 3px;
+  border: 1px solid #73AD21;
+  left: 16%;
+}
+
+.sitemap a {
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 3px 12px 3px;
+  border: 1px solid #28282B;
+  left: 16%;
+}
+
+
+.editors {
+  color: white;
+  position: relative;
+  left: 45%;
+}
+
+.editors a {
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 3px 12px 3px;
+  border: 1px solid #28282B;
+  left: 44%;
+}
+
+.editors a:hover{
+  border-radius: 20px;
+  padding: 3px 12px 3px;
+  border: 1px solid #73AD21;
+  left: 44%;
+}
+
+.deptlogo {
+  position: relative;
+  top: 36%;
+  left: 40%;
+
+}
+
+.social {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 4.7%;
+  margin-right: 4%;
+  text-align: center;
+  color: white;
+}
+
+.social img {
+  padding: 20px;
+}
+
+.social a:hover {
+  opacity: 0.7;
+}
+
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 0px 10px 6px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
